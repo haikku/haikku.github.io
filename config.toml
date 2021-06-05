@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "https://haikku.github.io"
+
+title = "അഖിൽ കൃഷ്ണൻ"
+
+description = "എന്റെ എഴുത്തുകുത്തുകൾ"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+generate_feed = true
+feed_filename = "index.xml"
+
+taxonomies = [
+    {name = "tags", lang = "en", rss = true},
+]
+
+emoji_rendering = true
+
+[extra]
+# Put all your custom variables here
+menu_links = [
+    { url = "$BASE_URL/", name = "പൂമുഖം" },
+    { url = "$BASE_URL/posts/", name = "ബ്ലോഗ്" },
+    { url = "$BASE_URL/tags/", name = "ടാഗ്" },
+]
+
+keywords = ["akhil", "krishnan"]
+github_username = "mynameakhil"
+twitter_username = "mynameakhil"
