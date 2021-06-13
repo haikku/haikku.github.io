@@ -1,9 +1,9 @@
 # The URL the site will be built for
 base_url = "https://haikku.github.io"
 
-title = "അഖിൽ കൃഷ്ണൻ"
+title = "കുളം കര..."
 
-description = "എന്റെ എഴുത്തുകുത്തുകൾ"
+description = ""
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

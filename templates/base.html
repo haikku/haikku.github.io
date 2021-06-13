@@ -36,18 +36,14 @@
 
 <body>
     <header>
+        {% block title %}
         <a class="site-name" href="/">
             <h1>{{ config.title }}</h1>
         </a>
+        {% endblock title %}
+
         <div class="site-description">
             <p>{{ config.description }}</p>
-            <!-- <div class="search-container">
-                <span class="search-icon"><i data-feather="search"></i></span>
-                <input id="search" type="search" placeholder="Search">
-                <div class="search-results">
-                    <div class="search-results__items"></div>
-                </div>
-            </div> -->
         </div>
         <nav>
             <div class="links">
@@ -81,7 +77,7 @@
             </ul>
         </div>
         <p>
-            © {{ config.title }} {{ now() | date(format="%Y") }}
+            © അഖിൽ കൃഷ്ണൻ {{ now() | date(format="%Y") }}
         </p>
     </footer>    
     <script>
